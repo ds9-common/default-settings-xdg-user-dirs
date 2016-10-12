@@ -1,0 +1,14 @@
+Source: default-settings-xdg-user-dirs
+Section: misc
+Priority: optional
+Maintainer: Rohan Garg <rohan@kde.org>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: https://github.com/ds9-common/default-settings-xdg-user-dirs
+
+Package: default-settings-xdg-user-dirs
+Architecture: all
+Depends: ${misc:Depends}
+Description: package to override default xdg-user-dirs
+ This package contains a configuration to override which dirs
+ are created when xdg-user-dirs is run
