@@ -8,6 +8,7 @@ Homepage: https://github.com/ds9-common/default-settings-xdg-user-dirs
 
 Package: default-settings-xdg-user-dirs
 Architecture: all
+Multi-Arch: foreign
 Depends: ${misc:Depends}
 Description: package to override default xdg-user-dirs
  This package contains a configuration to override which dirs
